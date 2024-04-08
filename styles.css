@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-family: Comfortaa;
+
+}
+
+p {
+    line-height: 1.3em;
+}
+
+/*--- WELCOME TO THE CITY ---*/
+
+h2 {
+    margin-top: 0;
+    font-size: 2em;   
+}
+
+#first-div {
+    background-image: url("images/metallic.jpeg");
+    height: 100vh;
+    background-position: 70% 30%;
+    background-size: cover;
+    text-shadow: 3px 3px 20px black;
+}
+
+#title {
+    padding-top: 35vh;
+    margin: 0 0 .3em 0;
+    font-size: 3em;
+    color: white;
+}
+
+#after-title {
+    color: white;
+}
+
+/*--- TOP THREE PLACES ---*/
+
+#second-div {
+    background-color: #C2C9A8;
+    padding-bottom: 2em;
+}
+
+h4 {
+    font-size: 1.2em;
+ }
+
+img, #top-three-img-div > div > p, #top-three-img-div > div > h4 {
+    width: 400px;
+}
+
+
+#top-three-img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#top-three-h3 {
+    padding-top: 2em;
+    margin: 0 0 2em 0;
+    font-size: 2em;
+}
+
+.place-photo {
+    border-radius: 50%;
+}
+
+/*--- GUIDE CARD ---*/
+
+#third-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(131, 174, 210);
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px;
+}
+
+#dima, #card-text {
+    width: 250px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#card-text {
+    padding-top: 1em;
+}
+
+#card-text > h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+#card-text > p {
+    margin: 2em auto;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#card-text > h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
