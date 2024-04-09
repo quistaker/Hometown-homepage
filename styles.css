@@ -14,9 +14,8 @@ p {
 /*--- WELCOME TO THE CITY ---*/
 
 #top-div {
-    background-image: url("images/metallic.jpeg");
+    background: url("images/metallic.jpeg") 70% 30%;
     height: 100vh; /*This makes the background image looks diferent while resize the window, but I decided let it be as it is*/
-    background-position: 70% 30%;
     background-size: cover;
     text-shadow: 3px 3px 20px black;
     color: white;
