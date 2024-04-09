@@ -13,57 +13,54 @@ p {
 
 /*--- WELCOME TO THE CITY ---*/
 
-h2 {
-    margin-top: 0;
-    font-size: 2em;   
-}
-
-#first-div {
+#top-div {
     background-image: url("images/metallic.jpeg");
     height: 100vh;
     background-position: 70% 30%;
     background-size: cover;
     text-shadow: 3px 3px 20px black;
+    color: white;
 }
 
-#title {
+#top-div > h1 {
     padding-top: 35vh;
     margin: 0 0 .3em 0;
-    font-size: 3em;
-    color: white;
+    font-size: 3em;   
 }
 
-#after-title {
-    color: white;
+#top-div > h2 {
+    margin-top: 0;
+    font-size: 2em;   
 }
 
 /*--- TOP THREE PLACES ---*/
 
-#second-div {
+#middle-div {
     background-color: #C2C9A8;
     padding-bottom: 2em;
 }
 
-h4 {
-    font-size: 1.2em;
- }
-
-img, #top-three-img-div > div > p, #top-three-img-div > div > h4 {
-    width: 400px;
+#middle-div > h3 {
+    padding-top: 2em;
+    margin: 0 0 2em 0;
+    font-size: 2em;
 }
 
+h4 {
+    font-size: 1.2em;
+}
 
-#top-three-img-div {
+ #top-three-places-div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#top-three-h3 {
-    padding-top: 2em;
-    margin: 0 0 2em 0;
-    font-size: 2em;
+img, 
+#top-three-places-div > div > p, 
+#top-three-places-div > div > h4 {
+    width: 400px;
 }
 
 .place-photo {
@@ -72,7 +69,7 @@ img, #top-three-img-div > div > p, #top-three-img-div > div > h4 {
 
 /*--- GUIDE CARD ---*/
 
-#third-div {
+#bottom-div {
     display: flex;
     justify-content: center;
     background-color: rgb(131, 174, 210);
@@ -93,7 +90,9 @@ img, #top-three-img-div > div > p, #top-three-img-div > div > h4 {
     padding-top: 1em;
 }
 
-#card-text > h3 {
+#card-text > h3,
+#card-text > h4
+{
     font-size: 1.7em;
     font-weight: 700;
 }
@@ -102,9 +101,4 @@ img, #top-three-img-div > div > p, #top-three-img-div > div > h4 {
     margin: 2em auto;
     font-style: italic;
     font-size: 1.1em;
-}
-
-#card-text > h4 {
-    font-size: 1.2em;
-    font-weight: 700;
 }
